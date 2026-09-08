@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tạo form và các điều khiển trên form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 320px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+            color: #883355;
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 5px;
+        }
+        .bg-label {
+            background-color: #d0e0f0;
+        }
+        .btn-container {
+            text-align: center;
+        }
+        #result {
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            min-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form name="loginForm">
+        <h2>Đăng nhập</h2>
+        <table border="1" style="border-collapse: collapse; border-color: #bbb;">
+            <tr>
+                <td class="bg-label">Mã người dùng:</td>
+                <td>
+                    <input type="text" id="username" value="ptnhung">
+                </td>
+            </tr>
+            <tr>
+                <td class="bg-label">Mật khẩu:</td>
+                <td>
+                    <input type="password" id="password" value="12345678">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="btn-container">
+                    <input type="button" value="Đồng ý" onclick="xuLyDangNhap()">
+                </td>
+            </tr>
+        </table>
+        <div id="result"></div>
+    </form>
+    <script>
+        function xuLyDangNhap() {
+            var user = document.getElementById("username").value;
+            document.getElementById("result").innerText = user;
+        }
+    </script>
+</body>
+</html>

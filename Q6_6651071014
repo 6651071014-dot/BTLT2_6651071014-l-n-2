@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        table {
+            width: 700px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #e5f5d5;
+        }
+
+        td {
+            border: 1px solid green;
+            padding: 8px;
+        }
+
+        .tieude {
+            text-align: center;
+            color: green;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nhan {
+            width: 250px;
+        }
+
+        .dongy {
+            text-align: center;
+        }
+
+        .ketqua {
+            text-align: center;
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="2" class="tieude">
+            Phiếu đăng ký tham gia chương trình khuyến mãi
+        </td>
+    </tr>
+
+    <!-- Họ tên -->
+    <tr>
+        <td class="nhan">Họ và tên</td>
+        <td>
+            <input type="text" value="Nguyễn Ngọc Quỳnh Nga">
+        </td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td>
+            <input type="text" value="2Bia Hùng Vương, Q10">
+        </td>
+    </tr>
+    <tr>
+        <td>Điện thoại</td>
+        <td>
+            <input type="text" value="0909097506">
+        </td>
+    </tr>
+    <tr>
+        <td>Phái</td>
+        <td>
+            <input type="radio" name="phai"> Nam
+            <input type="radio" name="phai" checked> Nữ
+        </td>
+    </tr>
+    <tr>
+        <td>Nghề nghiệp</td>
+        <td>
+            <select>
+                <option>Giáo viên</option>
+                <option>Sinh viên</option>
+                <option>Bác sĩ</option>
+                <option>Kỹ sư</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Chọn sản phẩm tham gia</td>
+        <td>
+            <select multiple size="4">
+                <option selected>Kem đánh răng</option>
+                <option>Bột giặt</option>
+                <option selected>Dầu gội đầu</option>
+                <option>Sữa tắm</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Số người dự đoán tham gia</td>
+        <td>
+            <input type="number" value="250000">
+        </td>
+    </tr>
+        <td colspan="2" class="dongy">
+            <input type="button" value="Đồng ý">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="ketqua">
+            Bạn đã đăng ký thành công!!!
+        </td>
+    </tr>
+</table>
+</body>
+</html>

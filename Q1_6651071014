@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Các tag cơ bản</title>
+</head>
+<body>
+    <h1 style="font-size: 50px; text-align: center;">Bài 01: Sử dụng các tag cơ bản</h1>
+    <h2><u>Yêu cầu</u></h2>
+    <h3>Thiết kế trang web có nội dung như sau:</h3>
+    <p style="font-size: 20px; text-align: center;">Lập trình Web</p>
+    <p style="font-size: 20px; text-align: center;">Chào mừng các bạn đến với ngôn ngữ HTML</p>
+</body>
+</html>

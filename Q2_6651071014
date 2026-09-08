@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Định dạng văn bản</title>
+</head>
+<body>
+    <h2 align="center"><font color="green">Định dạng văn bản</font></h2>
+    <p><b>Hóa học:</b> <i>Nước:</i> <font color="red">H<sub>2</sub>O</font> ; <i>Axit Sunfuric:</i> <font color="red">H<sub>2</sub>SO<sub>4</sub></font></p>
+    <p><b>Toán học:</b> <i>Phương trình bậc 2:</i> <font color="red"><i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i> = 0</font></p>
+    <p><b>Tin học:</b> <i>Vòng lặp For.</i></p>
+    <div style="background-color: #CCCCCC; color: #0000CC; width: 300px; margin: auto; padding: 10px; font-family: monospace;">
+        <center>For i = 0 To 10</center>
+        <center>&nbsp;&nbsp;&nbsp;&nbsp;Tong = Tong + i</center>
+        <div style="padding-left: 80px;">Next</div>
+    </div>
+
+</body>
+</html>
